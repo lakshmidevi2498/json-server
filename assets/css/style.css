@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: space-between;
+   
+    
+}
+.table{
+   
+    align-items: center;
+    justify-content: center;
+    padding: 5px; 
+    
+}
+.form{
+    display: none;
+}
+.form.active{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(59, 56, 56, 0.6);
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    z-index:99;
+}
+.studentForm{
+    
+    width:600px;
+    background-color: white;
+    margin:20px;
+    padding:10px ;
+}
+.form-control{
+    width: 90%;
+}
+.group{
+    display: flex;
+    margin: 15px;
+}
+.group label{
+   width: 70px;
+   line-height:40px
+}
+table   td{
+    
+    justify-content: center;
+    align-items: center; 
+}
